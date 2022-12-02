@@ -7,7 +7,7 @@ export default function Nav() {
     <>
       <nav id="navbar">
         <ul className="menu">
-          <li id="logo" title="Made by Johnny Stiwerson">
+          <li id="logo" >
             <div id="log"></div>
           </li>
           <li id="trigram" tabIndex={-1} title="">

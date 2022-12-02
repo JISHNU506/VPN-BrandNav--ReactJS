@@ -45,11 +45,7 @@ export default function Tstimonial() {
                   <>
                     <div
                       className={
-                        key + 1 === itemIndex ||
-                        key + 1 === itemIndex + 1 ||
-                        key + 1 === itemIndex + 2
-                          ? "testimonial-box"
-                          : "nbox"
+                        key + 1 === itemIndex || key + 1 === itemIndex + 1 || key + 1 === itemIndex + 2 ? "testimonial-box" : "nbox"
                       }
                     >
              
